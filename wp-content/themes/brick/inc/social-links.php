@@ -1,0 +1,16 @@
+<?php brick_global_variables(); ?>
+<?php if($GLOBALS['brick_option']['social-rss']): ?><a class="fa fa-rss" href="<?php echo esc_url($GLOBALS['brick_option']['social-rss']); ?>" title="rss" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-facebook']): ?><a class="fa fa-facebook" href="<?php echo esc_url($GLOBALS['brick_option']['social-facebook']); ?>" title="facebook" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-twitter']): ?><a class="fa fa-twitter" href="<?php echo esc_url($GLOBALS['brick_option']['social-twitter']); ?>" title="twitter" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-googleplus']): ?><a class="fa fa-googleplus" href="<?php echo esc_url($GLOBALS['brick_option']['social-googleplus']); ?>" title="google" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-youtube']): ?><a class="fa fa-youtube" href="<?php echo esc_url($GLOBALS['brick_option']['social-youtube']); ?>" title="youtube" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-vimeo']): ?><a class="fa fa-vimeo" href="<?php echo esc_url($GLOBALS['brick_option']['social-vimeo']); ?>" title="vimeo" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-linkedin']): ?><a class="fa fa-linkedin" href="<?php echo esc_url($GLOBALS['brick_option']['social-linkedin']); ?>" title="linkedin" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-pinterest']): ?><a class="fa fa-pinterest" href="<?php echo esc_url($GLOBALS['brick_option']['social-pinterest']); ?>" title="pinterest" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-flickr']): ?><a class="fa fa-flickr" href="<?php echo esc_url($GLOBALS['brick_option']['social-flickr']); ?>" title="flickr" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-instagram']): ?><a class="fa fa-instagram" href="<?php echo esc_url($GLOBALS['brick_option']['social-instagram']); ?>" title="instagram" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-apple']): ?><a class="fa fa-apple" href="<?php echo esc_url($GLOBALS['brick_option']['social-apple']); ?>" title="apple" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-dribbble']): ?><a class="fa fa-dribbble" href="<?php echo esc_url($GLOBALS['brick_option']['social-dribbble']); ?>" title="dribbble" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-android']): ?><a class="fa fa-android" href="<?php echo esc_url($GLOBALS['brick_option']['social-android']); ?>" title="android" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-behance']): ?><a class="fa fa-behance" href="<?php echo esc_url($GLOBALS['brick_option']['social-behance']); ?>" title="behance" target="_blank" ></a><?php endif; ?>
+<?php if($GLOBALS['brick_option']['social-email']): ?><a class="fa fa-envelope" href="mailto:<?php echo esc_attr($GLOBALS['brick_option']['social-email']); ?>" title="email" target="_blank" ></a><?php endif; ?>
